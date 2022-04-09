@@ -26,6 +26,7 @@ h1,
 h2 {
   font-family: $roboto;
 }
+
 .navbar {
   text-align: center;
   font-family: $inter;
@@ -35,5 +36,17 @@ h2 {
       text-decoration: none;
       color: white;
     }
+
+    .footer__container {
+  justify-content: center;
+  text-align: center;
+  .footer__container-title {
+    font-family: $roboto;
+    color: white;
+  }
+  .footer__container-list a {
+    font-family: $inter;
+    text-decoration: none;
+    color: $main-green;
   }
 }
