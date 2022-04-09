@@ -1,6 +1,6 @@
 $main-green: #16ffbd;
-$roboto: "Roboto Mono", sans-serif;
-$inter: "Inter", sans-serif;
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald&display=swap");
 
 * {
   box-sizing: border-box;
@@ -8,6 +8,7 @@ $inter: "Inter", sans-serif;
 
 body {
   background-color: black;
+  font-family: "Oswald", "Open Sans";
 }
 
 footer {
@@ -16,11 +17,11 @@ footer {
 
 main {
   background-color: $main-green;
-  font-family: $roboto;
+  font-family: "Oswald";
   justify-content: center;
   text-align: center;
   p {
-    font-family: $inter;
+    font-family: "Open Sans";
     text-transform: uppercase;
   }
 }
@@ -52,7 +53,7 @@ header {
 
 .navbar {
   text-align: center;
-  font-family: $inter;
+  font-family: "Oswald";
   justify-content: center;
   .navbar__list {
     a {
@@ -66,11 +67,11 @@ header {
   justify-content: center;
   text-align: center;
   .footer__container-title {
-    font-family: $roboto;
+    font-family: "Oswald";
     color: white;
   }
   .footer__container-list a {
-    font-family: $inter;
+    font-family: "Open Sans";
     text-decoration: none;
     color: $main-green;
   }
