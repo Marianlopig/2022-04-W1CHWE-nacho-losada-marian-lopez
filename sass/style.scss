@@ -17,11 +17,11 @@ footer {
 main {
   background-color: $main-green;
   font-family: $roboto;
-  text-transform: uppercase;
   justify-content: center;
   text-align: center;
   p {
     font-family: $inter;
+    text-transform: uppercase;
   }
 }
 
