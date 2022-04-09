@@ -6,6 +6,12 @@ $main-green: #16ffbd;
   box-sizing: border-box;
 }
 
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 body {
   background-color: black;
   font-family: "Oswald", "Open Sans";
