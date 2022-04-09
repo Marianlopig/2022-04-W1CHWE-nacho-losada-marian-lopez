@@ -26,3 +26,17 @@ h1,
 h2 {
   font-family: $roboto;
 }
+
+.footer__container {
+  justify-content: center;
+  text-align: center;
+  .footer__container-title {
+    font-family: $roboto;
+    color: white;
+  }
+  .footer__container-list a {
+    font-family: $inter;
+    text-decoration: none;
+    color: $main-green;
+  }
+}
