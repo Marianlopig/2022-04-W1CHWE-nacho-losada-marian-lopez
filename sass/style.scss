@@ -1,9 +1,28 @@
-$test: red;
+$main-green: #16ffbd;
+$roboto: "Roboto Mono", sans-serif;
+$inter: "Inter", sans-serif;
 
-body {
-  background-color: $test;
+* {
+  box-sizing: border-box;
 }
 
-h1 {
-  color: $test;
+body {
+  background-color: black;
+}
+
+footer {
+  background-color: black;
+}
+
+main {
+  background-color: $main-green;
+}
+
+header {
+  background-color: $main-green;
+}
+
+h1,
+h2 {
+  font-family: $roboto;
 }
