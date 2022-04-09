@@ -16,15 +16,38 @@ footer {
 
 main {
   background-color: $main-green;
+  font-family: $roboto;
+  text-transform: uppercase;
+  justify-content: center;
+  text-align: center;
+  p {
+    font-family: $inter;
+  }
 }
 
 header {
   background-color: $main-green;
 }
 
-h1,
-h2 {
-  font-family: $roboto;
+.header {
+  display: flex;
+  flex-direction: column;
+
+  .header__menu {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-top: 15px;
+  }
+  .header__logo {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -25px;
+    padding: 0px;
+    margin-bottom: -30px;
+  }
 }
 
 .navbar {
@@ -50,26 +73,5 @@ h2 {
     font-family: $inter;
     text-decoration: none;
     color: $main-green;
-  }
-}
-.header {
-  display: flex;
-  flex-direction: column;
-
-  .header__menu {
-    display: flex;
-    justify-content: space-between;
-    padding-left: 10px;
-    padding-right: 20px;
-    padding-top: 15px;
-  }
-  .header__logo {
-    display: flex;
-    justify-content: center;
-    padding-top: 0px;
-    position: relative;
-    top: -25px;
-    padding: 0px;
-    margin-bottom: -30px;
   }
 }
