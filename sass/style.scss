@@ -26,3 +26,14 @@ h1,
 h2 {
   font-family: $roboto;
 }
+.navbar {
+  text-align: center;
+  font-family: $inter;
+  justify-content: center;
+  .navbar__list {
+    a {
+      text-decoration: none;
+      color: white;
+    }
+  }
+}
