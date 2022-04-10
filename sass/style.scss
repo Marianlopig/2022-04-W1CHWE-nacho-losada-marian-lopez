@@ -1,4 +1,5 @@
 $main-green: #16ffbd;
+$pink: #fe8cab;
 
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald&display=swap");
 
@@ -15,6 +16,7 @@ body {
 body {
   background-color: black;
   font-family: "Oswald", "Open Sans";
+  letter-spacing: 3px;
 }
 
 footer {
@@ -29,10 +31,25 @@ main {
   p {
     font-family: "Open Sans";
     text-transform: uppercase;
+    transform: scaleY(0.9);
+    font-weight: bold;
   }
   a {
     font-family: "Open Sans";
     color: black;
+  }
+  .main__bottom {
+    color: $main-green;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 200px;
+    &--decoration {
+      text-decoration: line-through;
+      text-decoration-color: $pink;
+      background: black;
+    }
   }
 }
 
@@ -43,15 +60,14 @@ header {
 .header {
   display: flex;
   flex-direction: column;
-
-  .header__menu {
+  &__menu {
     display: flex;
     justify-content: space-between;
     padding-left: 10px;
     padding-right: 20px;
     padding-top: 15px;
   }
-  .header__logo {
+  &__logo {
     display: flex;
     justify-content: center;
     position: relative;
@@ -65,10 +81,14 @@ header {
   text-align: center;
   font-family: "Oswald";
   justify-content: center;
-  .navbar__list {
+  &__list {
     a {
       text-decoration: none;
       color: white;
+      text-decoration-color: $pink;
+    }
+    &-element--decoration {
+      text-decoration: line-through;
     }
   }
 }
@@ -91,6 +111,13 @@ span {
   background: $main-green;
   text-align: center;
 }
-img {
-  clip-path: polygon(0 30%, 100% 0%, 100% 71%, 0% 100%);
+
+h1,
+h3,
+a {
+  transform: scaleY(0.9);
+}
+
+p {
+  line-height: 250%;
 }
