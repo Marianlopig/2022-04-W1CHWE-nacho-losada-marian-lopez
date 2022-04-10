@@ -91,3 +91,6 @@ span {
   background: $main-green;
   text-align: center;
 }
+img {
+  clip-path: polygon(0 30%, 100% 0%, 100% 71%, 0% 100%);
+}
