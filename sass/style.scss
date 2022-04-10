@@ -180,3 +180,36 @@ a {
 .margin-top {
   margin-top: 40px;
 }
+
+.works-main {
+  background-color: $main-green;
+  font-family: "Oswald";
+  justify-content: center;
+  text-align: center;
+
+  p {
+    font-family: "Open Sans";
+    text-transform: uppercase;
+    transform: scaleY(0.9);
+    font-weight: bold;
+    margin: 20px;
+    line-height: 250%;
+  }
+  a {
+    font-family: "Open Sans";
+    color: black;
+  }
+  .main__bottom {
+    color: $main-green;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 200px;
+    &--decoration {
+      text-decoration: line-through;
+      text-decoration-color: $pink;
+      background: black;
+    }
+  }
+}
