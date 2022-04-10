@@ -23,7 +23,7 @@ footer {
   background-color: black;
 }
 
-main {
+.home-main {
   background-color: $main-green;
   font-family: "Oswald";
   justify-content: center;
@@ -35,6 +35,7 @@ main {
     transform: scaleY(0.9);
     font-weight: bold;
     margin: 20px;
+    line-height: 250%;
   }
   a {
     font-family: "Open Sans";
@@ -54,7 +55,41 @@ main {
     }
   }
 }
+.about-main {
+  background-color: $main-green;
+  font-family: "Oswald";
+  justify-content: center;
+  text-align: center;
 
+  h1,
+  h2 {
+    padding-top: 60px;
+  }
+
+  p {
+    font-family: "Open Sans";
+    font-weight: bold;
+    margin: 30px;
+    font-size: 14px;
+  }
+  a {
+    font-family: "Open Sans";
+    color: black;
+  }
+  .main__bottom {
+    color: $main-green;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 200px;
+    &--decoration {
+      text-decoration: line-through;
+      text-decoration-color: $pink;
+      background: black;
+    }
+  }
+}
 .header {
   background-color: $main-green;
   display: flex;
@@ -131,10 +166,6 @@ h1,
 h3,
 a {
   transform: scaleY(0.9);
-}
-
-p {
-  line-height: 250%;
 }
 
 .main__images-container {
