@@ -90,6 +90,9 @@ footer {
       background: black;
     }
   }
+  .main-image {
+    width: 100%;
+  }
 }
 .header {
   background-color: $main-green;
@@ -253,4 +256,9 @@ a {
   .header {
     display: none;
   }
+}
+
+.about-top-text {
+  padding: 40px;
+  line-height: 200%;
 }
