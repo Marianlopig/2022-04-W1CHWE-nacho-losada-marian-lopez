@@ -100,6 +100,10 @@ footer {
     padding-left: 10px;
     padding-right: 20px;
     padding-top: 15px;
+
+    a {
+      z-index: 10;
+    }
   }
   &__logo {
     display: flex;
@@ -212,4 +216,7 @@ a {
       background: black;
     }
   }
+}
+
+a {
 }
