@@ -93,6 +93,9 @@ footer {
       background: black;
     }
   }
+  .main-image {
+    width: 100%;
+  }
 }
 .header {
   background-color: $main-green;
@@ -242,4 +245,9 @@ a {
 
 .icons {
   padding-bottom: 40px;
+}
+
+.about-top-text {
+  padding: 40px;
+  line-height: 200%;
 }
