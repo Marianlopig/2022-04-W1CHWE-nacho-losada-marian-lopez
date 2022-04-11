@@ -1,3 +1,6 @@
+@use "variables";
+@use "media-query";
+
 $main-green: #16ffbd;
 $pink: #fe8cab;
 
@@ -55,6 +58,7 @@ footer {
     }
   }
 }
+
 .about-main {
   background-color: $main-green;
   font-family: "Oswald";
@@ -178,12 +182,6 @@ a {
     margin-bottom: 80px;
   }
 }
-.icons {
-  padding-bottom: 40px;
-}
-.margin-top {
-  margin-top: 40px;
-}
 
 .works-main {
   background-color: $main-green;
@@ -218,5 +216,10 @@ a {
   }
 }
 
-a {
+.margin-top {
+  margin-top: 40px;
+}
+
+.icons {
+  padding-bottom: 40px;
 }
