@@ -1,6 +1,3 @@
-@use "variables";
-@use "media-query";
-
 $main-green: #16ffbd;
 $pink: #fe8cab;
 
@@ -221,7 +218,6 @@ a {
 
 .navbar-desktop {
   background-color: #16ffbd;
-  display: none;
 }
 .navbar-desktop-list {
   display: flex;
@@ -239,12 +235,27 @@ a {
     padding-right: 30px;
   }
 
-.margin-top {
-  margin-top: 40px;
+  .margin-top {
+    margin-top: 40px;
+  }
+
+  .icons {
+    padding-bottom: 40px;
+  }
+}
+@media (max-width: 600px) {
+  .main-image {
+    display: none;
+  }
+  .navbar-desktop {
+    display: none;
+  }
 }
 
-.icons {
-  padding-bottom: 40px;
+@media (min-width: 600px) {
+  .header {
+    display: none;
+  }
 }
 
 .about-top-text {
